@@ -1,0 +1,53 @@
+@media only screen and (min-width:641px ) and (max-width:960px) {
+	.main-search .search{
+		width: 2rem;
+	}	
+	.main-search{ 
+		margin: .06rem  0 0 0.5rem;
+		position: relative;
+	}
+}
+@media only screen and (max-width:640px ) {
+	.main-search{
+		display: none;
+	}
+	.mobile-search{
+		display: block;
+	}
+	#right-sideBar{
+		position: fixed;
+		right: 20px;
+		bottom: 50px;
+	}
+	.mobile-search{
+		display:block;
+		
+		width: 30px;
+		height: 30px;
+		background:rgba(140,141,141,0.3) url(../images/search.png) no-repeat;
+		opacity: 0.5;
+		background-size: 30px 30px;
+		margin-bottom: 20px;
+	}
+	.b2top{
+		width: 30px;
+		height: 30px;
+		background:rgba(140,141,141,0.3);
+		text-align: center;
+		line-height: 30px;
+		font-size: 12px;
+	}
+	#footer .about{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 20px;
+	}
+	#footer .about a{
+		margin: 10px;
+	}
+	#footer{
+		height: 70px;
+	}
+	
+}

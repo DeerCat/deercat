@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>ajax</title>
+</head>
+<body>
+	<div class="box">这是一个。。。</div>
+	<input type="button" id="btn" value="读取">
+</body>
+	<script>
+		var oBtn = document.getElementById("btn");
+			oBtn.onclick = function(){
+				var time = new Date();
+				var timeStamp = time.getTime();
+				//console.log(timeStamp)
+				var url = "hello.html?time="+timeStamp;
+				if(window.XMLHttpRequest){
+					var oAjax = new XMLHttpRequest();
+				}else{
+					var oAjax = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				oAjax.open("get",url,true);
+				oAjax.onreadystatechange = function(){
+					if(oAjax.readyState == 4 && oAjax.status == 200){
+						console.log(oAjax.responseText)
+					}
+				}
+				oAjax.send();
+			}
+	</script>
+</html>

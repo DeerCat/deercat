@@ -1,0 +1,150 @@
+
+			body{
+				background:#eeeeee;		
+				
+			}
+			#head{
+				background:#fff;
+				height:40px;
+				position:relative;
+			}
+			#head .container-header{
+				width:100%;												
+				margin:0 auto;
+				position: fixed;
+				z-index: 999;
+				left:0px;
+				right:0px;
+				background:#fff;
+			}
+			#head .container{
+				width: 80%;
+				height:40px;
+				padding: 5px 0 5px 0;
+				margin: 0 auto;								
+			}
+			#head .container .logo{
+				height:40px;
+			}			
+			.container>div{
+				float:left;
+			}
+			
+			.main-search{ 
+				margin: .06rem  0 0 1rem;
+				position: relative;
+			}
+			.main-search .search{
+				width: 3rem;
+				height: .28rem;
+				border: 1px solid #ccc;
+				outline: none;
+				text-indent: .3rem;
+				font-size: .14rem;
+				color:grey;
+				background: url(../images/search.png) no-repeat .04rem center;
+			}
+			.main-search .searchBtn{
+				position: absolute;
+				right: 0;
+				top:0;
+				width: .56rem;
+				height: .30rem;
+				border: 1px solid #ccc;
+				background: url(../images/catt.png) no-repeat center center;
+				background-size:.55rem;
+				color: grey;
+				font-size: .16rem;
+				text-align: center;
+				outline: none;
+				cursor: pointer;				
+			}
+			.main-search .searchBtn:hover{
+				background:#f46 url(../images/catt.png) no-repeat center center;
+				color:#f46;
+				font-weight: 900;
+				background-size:.55rem;
+			}
+			.container .login-area{
+				float:right;
+				padding-top:7px;								
+			}
+			.container .login-area a{
+				display:block;
+				float:right;
+				width: 50px;
+				height: 28px;
+				background:#f46;
+				line-height: 26px;
+				text-align: center;
+				border-radius: 2px;
+				color: #fff;				
+			}
+			.login-area .v-line{
+				float:right;
+				width: 1px;
+				height: 24px;
+				background:#ebebeb;
+				margin: 0 12px;				
+			}
+			.container-header .container-btm{
+				height: 1px;
+				opacity: .12;
+				background:#000;
+				box-shadow: 0 1px 3px rgba(0,0,0,.8);
+			}
+			#body{
+				margin: 0 auto;
+				width:80%;
+				-height: 1000px;				
+			}
+			#body .img-box{
+				float:left;
+				position: absolute;
+			}
+			#body .img-box img{
+				max-width: 224px;
+			}			
+			#footer{
+				background:#ddd;
+				height: 150px;
+				border-top:1px solid #CCCCCC ;
+			}
+			#footer .about{
+				width: 80%;
+				margin: 0 auto;
+				text-align: center;
+				padding-top: 40px;
+			}
+			#footer .about a{
+				margin: 20px;
+			}
+			
+			
+			#footer a{
+				color:gray;
+			}
+			#right-sideBar{
+				position: fixed;
+				right: 50px;
+				bottom: 100px;
+			}
+			.mobile-search{
+				display: none;
+				
+				width: 50px;
+				height: 50px;
+				background:rgba(140,141,141,0.3) url(../images/search.png) no-repeat;
+				opacity: 0.5;
+				background-size: 50px 50px;
+				margin-bottom: 20px;
+			}
+			.b2top{
+				width: 50px;
+				height: 50px;
+				background:rgba(140,141,141,0.3);
+				text-align: center;
+				line-height: 50px;
+				font-size: 20px;
+			}
+			
